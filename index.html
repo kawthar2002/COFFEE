@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Coffee</title>
+  </head>
+  <body>
+    <wrapper class="wrapper">
+      <header class="header" id="header">
+        <div class="container">
+          <nav class="header-nav">
+            <a href="#" class="header-nav__logo logo">
+              <img src="./img/logo.svg" alt="logo" class="logo" />
+            </a>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#menu" class="header-nav__link menu-item">Menu</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#about" class="header-nav__link menu-item">Gallery</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#news" class="header-nav__link menu-item">News</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#contact" class="header-nav__link menu-item"
+                  >Contact</a
+                >
+              </li>
+              <li class="header-nav__item">
+                <label for="search-input" class="search-button__label">
+                  <input
+                    type="text"
+                    name="search-input"
+                    placeholder=""
+                    class="search-button__input"
+                  />
+                  <a href="#" class="search-button__btn">
+                    <img
+                      src="./img/iconSearch.svg"
+                      alt="search"
+                      class="search-button__img"
+                    />
+                  </a>
+                </label>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="header-nav__link cart-link">
+                  <img src="./img/cart.svg" alt="cart" class="cart" />
+                  <div class="cart-text">0</div>
+                </a>
+              </li>
+            </ul>
+            <div class="header-nav__mobile">
+              <li class="header-nav__item">
+                <a href="#" class="header-nav__link menu-btn">
+                  <svg
+                    viewBox="0 0 100 80"
+                    width="40"
+                    height="40"
+                    opacity="0.6"
+                    fill="white"
+                  >
+                    <rect width="100" height="5"></rect>
+                    <rect y="30" width="100" height="5"></rect>
+                    <rect y="60" width="100" height="5"></rect>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="header-nav__link">
+                  <img
+                    src="./img/searchButton.svg"
+                    alt="search"
+                    class="search"
+                  />
+                </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="header-nav__link cart-link">
+                  <img src="./img/cart.svg" alt="cart" class="cart" />
+                  <div class="cart-text">0</div>
+                </a>
+              </li>
+            </div>
+          </nav>
+          <div class="popup">
+            <div class="popup-container">
+              <div class="popup-body">
+                <ul class="popup-body__list">
+                  <li class="popup-body__item">
+                    <a href="#about" class="popup-body__link">Gallery</a>
+                  </li>
+                  <li class="popup-body__item">
+                    <a href="#menu" class="popup-body__link">Offer</a>
+                  </li>
+                  <li class="popup-body__item">
+                    <a href="#news" class="popup-body__link">News</a>
+                  </li>
+                  <li class="popup-body__item">
+                    <a href="#contact" class="popup-body__link">Contact</a>
+                  </li>
+                </ul>
+                <a href="#" class="popup-body__close">
+                  <svg
+                    class="svg-icon"
+                    style="
+                      width: 25px;
+                      height: 25px;
+                      vertical-align: middle;
+                      fill: black;
+                      opacity: 0.6;
+                      overflow: hidden;
+                    "
+                    viewBox="0 0 1024 1024"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header-inner">
+            <h1 class="header-title">
+              Keep your dreams aroused with a cup of coffee.
+            </h1>
+            <p class="header-text">
+              The coffee ideas shared by these generators are not cool at all,
+              as they are not a human being.
+            </p>
+            <a href="#menu" class="header-btn">Buy Now</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="offer">
+            <div class="offer-top">
+              <div class="offer-top__content" id="menu">
+                <h2 class="offer-title title">That is Our Best Offer</h2>
+                <p class="offer-text text">
+                  A coffee shop will help you to tell the audience what your
+                  business.
+                </p>
+              </div>
+              <div class="offer-slide__buttons">
+                <a class="offer-slide__btn-left">
+                  <svg
+                    width="46"
+                    height="46"
+                    viewBox="0 0 46 46"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <circle cx="23" cy="23" r="22.5" stroke="#FF4B32" />
+                      <circle cx="23" cy="23" r="20" fill="#FF4B32" />
+                      <path
+                        d="M26.2857 29.5713L19.7142 22.9999L26.2857 16.4285"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </a>
+                <a class="offer-slide__btn-right">
+                  <svg
+                    width="46"
+                    height="46"
+                    viewBox="0 0 46 46"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="23" cy="23" r="22.5" stroke="#FF4B32" />
+                    <circle cx="23" cy="23" r="20" fill="#FF4B32" />
+                    <path
+                      d="M19.7143 16.4284L26.2858 22.9999L19.7143 29.5713"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="offer-cards">
+              <div class="offer-cards__container">
+                <div class="offer-cards__inner">
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer1.png"
+                      alt="coffeee1"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>5.99</span></p>
+                      <h3 class="offer-cards__title">Brazilian coffee beans</h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer2.png"
+                      alt="coffeee1"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>4.99</span></p>
+                      <h3 class="offer-cards__title">Vietnam coffee beans</h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer3.png"
+                      alt="coffeee3"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>3.99</span></p>
+                      <h3 class="offer-cards__title">
+                        Indonesian coffee beans
+                      </h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer1.png"
+                      alt="coffeee1"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>5.99</span></p>
+                      <h3 class="offer-cards__title">Brazilian coffee beans</h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer2.png"
+                      alt="coffeee1"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>4.99</span></p>
+                      <h3 class="offer-cards__title">Vietnam coffee beans</h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                  <div class="offer-cards__item">
+                    <img
+                      src="./img/offer3.png"
+                      alt="coffeee3"
+                      class="offer-card__img"
+                    />
+                    <div class="offer-cards__content">
+                      <p class="offer-cards__price">$<span>3.99</span></p>
+                      <h3 class="offer-cards__title">
+                        Indonesian coffee beans
+                      </h3>
+                      <p class="offer-cards__text">
+                        Coffee that’s always you handle your own the way you
+                        like.
+                      </p>
+                    </div>
+                    <div class="offer-cards__buttons">
+                      <div class="offer-cards__btn">
+                        <div class="offer-cards__sum" data-counter>0</div>
+                        <div class="offer-cards__count">
+                          <div class="offer-cards__plus" data-action="plus">
+                            <svg
+                              width="12"
+                              height="12"
+                              viewBox="0 0 12 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M6 1V11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M1 6H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="offer-cards__minus" data-action="minus">
+                            <svg
+                              width="12"
+                              height="2"
+                              viewBox="0 0 12 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1 1H11"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="offer-cards__delivery">
+                        Get Delivery
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gallery" id="about">
+            <h2 class="gallery-title title">Our Gallery</h2>
+            <p class="gallery-text text">
+              The coffee shop name generator is a great tool for those that are
+              deliberating what to call their new coffeee.
+            </p>
+            <div class="gallery-items">
+              <div class="gallery-item">
+                <img
+                  src="./img/gallery1.png"
+                  alt="gallery"
+                  class="gallery-item__top"
+                />
+                <img
+                  src="./img/gallery2.png"
+                  alt="gallery"
+                  class="gallery-item__bottom"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="./img/gallery3.png"
+                  alt="gallery"
+                  class="gallery-item__top"
+                />
+                <img
+                  src="./img/gallery4.png"
+                  alt="gallery"
+                  class="gallery-item__bottom"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="./img/gallery5.png"
+                  alt="gallery"
+                  class="gallery-item__top"
+                />
+                <img
+                  src="./img/gallery6.png"
+                  alt="gallery"
+                  class="gallery-item__bottom"
+                />
+              </div>
+            </div>
+
+            <div class="gallery-button">
+              <a href="#" class="gallery-btn">LOAD MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="follow" id="contact">
+          <div class="follow-container">
+            <div class="follow-inner">
+              <a href="#" class="follow-link">Follow US</a>
+              <h3 class="follow-title title">
+                Have an inquiry?<br />Text or call and ask Something.
+              </h3>
+              <ul class="follow-list">
+                <li class="follow-list__item">
+                  <a href="tel:+8801742527137" class="phone">+8801742-527137</a>
+                </li>
+                <li class="follow-list__item">
+                  <a href="mailto:coffee17@gmail.com" class="follow-mail"
+                    >coffee@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <div class="socials">
+                <a href="#" class="socials-link">
+                  <svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.4"
+                      cx="25"
+                      cy="25"
+                      r="24.5"
+                      stroke="white"
+                    />
+                    <path
+                      d="M33.3333 18.3417C32.5353 18.9046 31.6518 19.3351 30.7167 19.6167C30.2148 19.0396 29.5478 18.6306 28.8059 18.445C28.0639 18.2593 27.2829 18.306 26.5684 18.5787C25.8539 18.8515 25.2404 19.337 24.8108 19.9698C24.3813 20.6026 24.1564 21.352 24.1667 22.1167V22.95C22.7022 22.988 21.2511 22.6632 19.9425 22.0046C18.634 21.3459 17.5086 20.3739 16.6667 19.175C16.6667 19.175 13.3333 26.675 20.8333 30.0084C19.1171 31.1733 17.0726 31.7575 15 31.675C22.5 35.8417 31.6667 31.675 31.6667 22.0917C31.6659 21.8596 31.6436 21.628 31.6 21.4C32.4505 20.5613 33.0507 19.5023 33.3333 18.3417V18.3417Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="socials-link"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.4"
+                      cx="25"
+                      cy="25"
+                      r="24.5"
+                      stroke="white"
+                    />
+                    <path
+                      d="M29.1667 16.6665H26.6667C25.5616 16.6665 24.5018 17.1055 23.7204 17.8869C22.939 18.6683 22.5 19.7281 22.5 20.8332V23.3332H20V26.6665H22.5V33.3332H25.8333V26.6665H28.3333L29.1667 23.3332H25.8333V20.8332C25.8333 20.6122 25.9211 20.4002 26.0774 20.2439C26.2337 20.0876 26.4457 19.9998 26.6667 19.9998H29.1667V16.6665Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="socials-link"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.4"
+                      cx="25"
+                      cy="25"
+                      r="24.5"
+                      stroke="white"
+                    />
+                    <path
+                      d="M29.1667 16.6665H20.8334C18.5322 16.6665 16.6667 18.532 16.6667 20.8332V29.1665C16.6667 31.4677 18.5322 33.3332 20.8334 33.3332H29.1667C31.4679 33.3332 33.3334 31.4677 33.3334 29.1665V20.8332C33.3334 18.532 31.4679 16.6665 29.1667 16.6665Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M28.3323 24.4753C28.4351 25.1688 28.3167 25.8771 27.9937 26.4994C27.6708 27.1218 27.1599 27.6264 26.5336 27.9416C25.9074 28.2569 25.1976 28.3666 24.5054 28.2552C23.8132 28.1438 23.1737 27.817 22.678 27.3212C22.1822 26.8255 21.8554 26.186 21.744 25.4938C21.6326 24.8015 21.7423 24.0918 22.0575 23.4656C22.3728 22.8393 22.8774 22.3284 23.4998 22.0055C24.1221 21.6825 24.8304 21.5641 25.5239 21.6669C26.2314 21.7718 26.8863 22.1015 27.392 22.6072C27.8977 23.1129 28.2274 23.7678 28.3323 24.4753Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M29.5826 20.4168H29.5914"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="socials-link"
+                  ><svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.4"
+                      cx="25"
+                      cy="25"
+                      r="24.5"
+                      stroke="white"
+                    />
+                    <path
+                      d="M28.3341 21.6669C29.6602 21.6669 30.932 22.1937 31.8696 23.1314C32.8073 24.0691 33.3341 25.3408 33.3341 26.6669V32.5003H30.0008V26.6669C30.0008 26.2249 29.8252 25.801 29.5126 25.4884C29.2001 25.1759 28.7761 25.0003 28.3341 25.0003C27.8921 25.0003 27.4682 25.1759 27.1556 25.4884C26.843 25.801 26.6674 26.2249 26.6674 26.6669V32.5003H23.3341V26.6669C23.3341 25.3408 23.8609 24.0691 24.7986 23.1314C25.7363 22.1937 27.008 21.6669 28.3341 21.6669Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M20.0011 22.4998H16.6677V32.4998H20.0011V22.4998Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.3344 19.9998C19.2549 19.9998 20.0011 19.2536 20.0011 18.3332C20.0011 17.4127 19.2549 16.6665 18.3344 16.6665C17.4139 16.6665 16.6677 17.4127 16.6677 18.3332C16.6677 19.2536 17.4139 19.9998 18.3344 19.9998Z"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="update">
+          <div class="container">
+            <h3 class="update-title title" id="news">Update News</h3>
+            <p class="update-text text">
+              A cup of brewed coffee represents a contribution of up to 1.8
+              grams of fiber of the recommended.
+            </p>
+            <div class="update-cards">
+              <div class="update-cards__item">
+                <img
+                  src="./img/update1.png"
+                  alt="update"
+                  class="update-cards__img"
+                />
+                <div class="update-cards__content">
+                  <h4 class="update-cards__title">Coffee beans</h4>
+                  <p class="update-cards__text">
+                    These advertising mottos are targeted to the 56% of coffee
+                    drinking consumers.
+                  </p>
+                  <a href="#" class="update-cards__link">Learn More</a>
+                </div>
+              </div>
+              <div class="update-cards__item">
+                <img
+                  src="./img/update1.png"
+                  alt="update"
+                  class="update-cards__img"
+                />
+                <div class="update-cards__content">
+                  <h4 class="update-cards__title">Coffee beans</h4>
+                  <p class="update-cards__text">
+                    These advertising mottos are targeted to the 56% of coffee
+                    drinking consumers.
+                  </p>
+                  <a href="#" class="update-cards__link">Learn More</a>
+                </div>
+              </div>
+              <div class="update-cards__item">
+                <img
+                  src="./img/update1.png"
+                  alt="update"
+                  class="update-cards__img"
+                />
+                <div class="update-cards__content">
+                  <h4 class="update-cards__title">Coffee beans</h4>
+                  <p class="update-cards__text">
+                    These advertising mottos are targeted to the 56% of coffee
+                    drinking consumers.
+                  </p>
+                  <a href="#" class="update-cards__link">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-inner">
+            <div class="footer-info">
+              <a href="#header" class="footer-logo__link">
+                <img src="./img/logo.svg" alt="logo" class="footer-logo" />
+              </a>
+              <div class="footer-info__text">
+                <p class="footer-text">
+                  Creating a catchy tagline coffee shop business growth.
+                </p>
+                <a href="tel:+8801742527137" class="footer-phone phone"
+                  >+8801742-527137</a
+                >
+              </div>
+            </div>
+            <div class="footer-lists">
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a href="#menu" class="footer-title">CATEGORIES</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#" class="footer-link">Ashley Szekeres Art</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#" class="footer-link">Merchandise</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#" class="footer-link">Gift Certificates</a>
+                </li>
+              </ul>
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a href="#about" class="footer-title">INFORMATION</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#news" class="footer-link">Coffee Beans</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#contact" class="footer-link">Contact Us</a>
+                </li>
+                <li class="footer-list__item">
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+              </ul>
+              <div class="footer-list">
+                <a href="#contact" class="footer-title footer-socials__title"
+                  >FOLLOW US</a
+                >
+                <div class="footer-socials">
+                  <a href="#" class="footer-socials__link"
+                    ><svg
+                      width="39"
+                      height="40"
+                      viewBox="0 0 39 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        opacity="0.3"
+                        d="M37.9615 19.9999C37.9615 30.2337 29.5802 38.5383 19.2308 38.5383C8.8813 38.5383 0.5 30.2337 0.5 19.9999C0.5 9.7661 8.8813 1.46143 19.2308 1.46143C29.5802 1.46143 37.9615 9.7661 37.9615 19.9999Z"
+                        stroke="white"
+                      />
+                      <path
+                        d="M25.641 14.9295C25.0272 15.3581 24.3475 15.686 23.6282 15.9004C23.2421 15.461 22.7291 15.1495 22.1583 15.0081C21.5876 14.8668 20.9868 14.9023 20.4372 15.11C19.8876 15.3177 19.4157 15.6875 19.0852 16.1693C18.7548 16.6512 18.5818 17.2219 18.5897 17.8043V18.4389C17.4632 18.4678 16.347 18.2205 15.3404 17.7189C14.3338 17.2173 13.4681 16.4771 12.8205 15.5641C12.8205 15.5641 10.2564 21.2756 16.0256 23.8141C14.7055 24.7013 13.1328 25.1461 11.5385 25.0833C17.3077 28.2564 24.359 25.0833 24.359 17.7852C24.3584 17.6085 24.3412 17.4321 24.3077 17.2585C24.9619 16.6198 25.4236 15.8133 25.641 14.9295V14.9295Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="footer-socials__link"
+                    ><svg
+                      width="39"
+                      height="40"
+                      viewBox="0 0 39 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        opacity="0.3"
+                        d="M38.4231 19.9999C38.4231 30.2337 30.0418 38.5383 19.6923 38.5383C9.34285 38.5383 0.961548 30.2337 0.961548 19.9999C0.961548 9.7661 9.34285 1.46143 19.6923 1.46143C30.0418 1.46143 38.4231 9.7661 38.4231 19.9999Z"
+                        stroke="white"
+                      />
+                      <path
+                        d="M22.8976 13.6538H20.9745C20.1245 13.6538 19.3092 13.9881 18.7082 14.5832C18.1071 15.1782 17.7694 15.9853 17.7694 16.8269V18.7307H15.8463V21.2692H17.7694V26.3461H20.3335V21.2692H22.2566L22.8976 18.7307H20.3335V16.8269C20.3335 16.6586 20.401 16.4972 20.5212 16.3781C20.6415 16.2591 20.8045 16.1923 20.9745 16.1923H22.8976V13.6538Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="footer-socials__link"
+                    ><svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        opacity="0.3"
+                        d="M38.8846 19.9999C38.8846 30.2337 30.5033 38.5383 20.1539 38.5383C9.8044 38.5383 1.4231 30.2337 1.4231 19.9999C1.4231 9.7661 9.8044 1.46143 20.1539 1.46143C30.5033 1.46143 38.8846 9.7661 38.8846 19.9999Z"
+                        stroke="white"
+                      />
+                      <path
+                        d="M23.359 13.6538H16.9488C15.1786 13.6538 13.7437 15.0744 13.7437 16.8269V23.173C13.7437 24.9255 15.1786 26.3461 16.9488 26.3461H23.359C25.1292 26.3461 26.5642 24.9255 26.5642 23.173V16.8269C26.5642 15.0744 25.1292 13.6538 23.359 13.6538Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M22.7171 19.6004C22.7962 20.1286 22.705 20.668 22.4566 21.1419C22.2082 21.6159 21.8152 22.0002 21.3335 22.2402C20.8517 22.4803 20.3058 22.5638 19.7733 22.479C19.2408 22.3942 18.7489 22.1453 18.3676 21.7678C17.9862 21.3902 17.7348 20.9032 17.6491 20.3761C17.5635 19.8489 17.6479 19.3084 17.8903 18.8315C18.1328 18.3546 18.521 17.9655 18.9997 17.7196C19.4785 17.4737 20.0233 17.3835 20.5568 17.4618C21.101 17.5417 21.6048 17.7927 21.9938 18.1778C22.3828 18.5629 22.6364 19.0617 22.7171 19.6004Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M23.679 16.5098H23.6856"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="footer-socials__link">
+                    <svg
+                      width="39"
+                      height="40"
+                      viewBox="0 0 39 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        opacity="0.3"
+                        d="M38.3462 19.9999C38.3462 30.2337 29.9649 38.5383 19.6154 38.5383C9.26595 38.5383 0.884644 30.2337 0.884644 19.9999C0.884644 9.7661 9.26595 1.46143 19.6154 1.46143C29.9649 1.46143 38.3462 9.7661 38.3462 19.9999Z"
+                        stroke="white"
+                      />
+                      <path
+                        d="M22.1801 17.4617C23.2002 17.4617 24.1785 17.8628 24.8998 18.5769C25.6211 19.291 26.0263 20.2595 26.0263 21.2694V25.7117H23.4622V21.2694C23.4622 20.9327 23.3271 20.6099 23.0867 20.3719C22.8463 20.1339 22.5202 20.0001 22.1801 20.0001C21.8401 20.0001 21.514 20.1339 21.2736 20.3719C21.0332 20.6099 20.8981 20.9327 20.8981 21.2694V25.7117H18.334V21.2694C18.334 20.2595 18.7392 19.291 19.4605 18.5769C20.1818 17.8628 21.1601 17.4617 22.1801 17.4617Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M15.7702 18.0959H13.2061V25.7113H15.7702V18.0959Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.4881 16.1923C15.1962 16.1923 15.7702 15.624 15.7702 14.923C15.7702 14.2221 15.1962 13.6538 14.4881 13.6538C13.78 13.6538 13.2061 14.2221 13.2061 14.923C13.2061 15.624 13.78 16.1923 14.4881 16.1923Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="footer-bottom__text">
+                Copyright © 2022 Coffee, All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </wrapper>
+    <script src="script.js"></script>
+  </body>
+</html>
