@@ -305,9 +305,11 @@ select {
   flex-direction: column;
 }
 .offer-cards__count :hover {
-  opacity: 0.6;
+  opacity: 0.6; 
 }
-.offer-cards__plus {
+.offer-cards__plus-btn {
+  z-index: 10;
+  cursor: pointer;
   display: flex;
   height: 28.5px;
   align-items: center;
@@ -315,7 +317,14 @@ select {
 }
 .offer-cards__minus {
   border-top: 1px solid #000000;
+}
+.offer-cards__minus-btn {
   height: 28.5px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .offer-cards__delivery {
   display: flex;
