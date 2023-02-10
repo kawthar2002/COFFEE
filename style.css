@@ -307,19 +307,19 @@ select {
 .offer-cards__count :hover {
   opacity: 0.6; 
 }
-.offer-cards__plus-btn {
+.offer-cards__plus {
   z-index: 10;
   cursor: pointer;
   display: flex;
-  height: 28.5px;
+  height: 26px;
   align-items: center;
   justify-content: center;
 }
 .offer-cards__minus {
   border-top: 1px solid #000000;
 }
-.offer-cards__minus-btn {
-  height: 28.5px;
+.offer-cards__minus {
+  height: 26px;
   z-index: 10;
   cursor: pointer;
   display: flex;
